@@ -1,61 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 80 1500 860" role="img" aria-labelledby="title desc">
 <title id="title">The Cloth Hub entity relationship diagram</title><desc id="desc">Four tables. One user has zero or many orders. One order has zero or many order items. One product appears in zero or many order items. Each child references exactly one parent.</desc>
-<style>text{font-family:Consolas,monospace;fill:#e2e8f0}.heading{font-size:22px;font-weight:bold}.row{font-size:14px}.muted{fill:#94a3b8;font-size:13px}.relation{fill:#fbbf24;font-size:13px}</style>
-<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="0.5"/></pattern></defs>
-<rect width="1500" height="940" fill="#0f172a"/><rect width="1500" height="940" fill="url(#grid)"/>
-<text x="40" y="40" class="heading">THE CLOTH HUB / ENTITY RELATIONSHIP DIAGRAM</text>
-<text x="40" y="68" class="muted">Database: clothhub • MySQL / MariaDB • 4 tables • Actual column types</text>
+<style>text{font-family:Consolas,monospace;fill:#000000}.heading{font-size:22px;font-weight:bold}.row{font-size:14px}.muted{fill:#000000;font-size:13px}.relation{fill:#000000;font-size:13px}</style>
+
+<rect width="1500" height="940" fill="#ffffff"/>
+
+
 <!-- Relations: exactly one parent to zero or many children -->
-<g fill="none" stroke="#94a3b8" stroke-width="2">
+<g fill="none" stroke="#000000" stroke-width="2">
 <path d="M660 235H840"/><path d="M675 227V243M681 227V243"/>
-<circle cx="811" cy="235" r="5" fill="#0f172a"/><path d="M823 235L840 225M823 235L840 245"/>
+<circle cx="811" cy="235" r="5" fill="#ffffff"/><path d="M823 235L840 225M823 235L840 245"/>
 <path d="M1150 365V540"/><path d="M1142 380H1158M1142 386H1158"/>
-<circle cx="1150" cy="511" r="5" fill="#0f172a"/><path d="M1150 523L1140 540M1150 523L1160 540"/>
+<circle cx="1150" cy="511" r="5" fill="#ffffff"/><path d="M1150 523L1140 540M1150 523L1160 540"/>
 <path d="M660 695H840"/><path d="M675 687V703M681 687V703"/>
-<circle cx="811" cy="695" r="5" fill="#0f172a"/><path d="M823 695L840 685M823 695L840 705"/>
+<circle cx="811" cy="695" r="5" fill="#ffffff"/><path d="M823 695L840 685M823 695L840 705"/>
 </g>
 <text x="750" y="212" text-anchor="middle" class="relation">places</text>
 <text x="1170" y="450" class="relation">contains</text>
 <text x="750" y="671" text-anchor="middle" class="relation">appears in</text>
 
-<g transform="translate(40,110)"><rect width="620" height="370" rx="8" fill="#0f172a"/><rect width="620" height="370" rx="8" fill="#17243a" stroke="#22d3ee" stroke-width="2"/><text x="20" y="32" class="heading">USERS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#22d3ee"/>
-<text x="20" y="76" class="row" style="fill:#22d3ee">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
-<text x="20" y="100" class="row" style="fill:#22d3ee"></text><text x="63" y="100" class="row">full_name</text><text x="232" y="100" class="row">VARCHAR(100)</text>
-<text x="20" y="124" class="row" style="fill:#22d3ee">UK</text><text x="63" y="124" class="row">email</text><text x="232" y="124" class="row">VARCHAR(100)</text>
-<text x="20" y="148" class="row" style="fill:#22d3ee"></text><text x="63" y="148" class="row">phone</text><text x="232" y="148" class="row">VARCHAR(20)</text>
-<text x="20" y="172" class="row" style="fill:#22d3ee"></text><text x="63" y="172" class="row">address</text><text x="232" y="172" class="row">TEXT</text>
-<text x="20" y="196" class="row" style="fill:#22d3ee"></text><text x="63" y="196" class="row">district</text><text x="232" y="196" class="row">VARCHAR(100)</text>
-<text x="20" y="220" class="row" style="fill:#22d3ee"></text><text x="63" y="220" class="row">state</text><text x="232" y="220" class="row">VARCHAR(100)</text>
-<text x="20" y="244" class="row" style="fill:#22d3ee"></text><text x="63" y="244" class="row">pincode</text><text x="232" y="244" class="row">VARCHAR(10)</text>
-<text x="20" y="268" class="row" style="fill:#22d3ee"></text><text x="63" y="268" class="row">password</text><text x="232" y="268" class="row">VARCHAR(255)</text>
-<text x="20" y="292" class="row" style="fill:#22d3ee"></text><text x="63" y="292" class="row">role</text><text x="232" y="292" class="row">ENUM(customer, admin)</text>
-<text x="20" y="316" class="row" style="fill:#22d3ee"></text><text x="63" y="316" class="row">created_at</text><text x="232" y="316" class="row">TIMESTAMP</text>
+<g transform="translate(40,110)"><rect width="620" height="370" rx="8" fill="#ffffff"/><rect width="620" height="370" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/><text x="20" y="32" class="heading">USERS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#000000"/>
+<text x="20" y="76" class="row" style="fill:#000000">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
+<text x="20" y="100" class="row" style="fill:#000000"></text><text x="63" y="100" class="row">full_name</text><text x="232" y="100" class="row">VARCHAR(100)</text>
+<text x="20" y="124" class="row" style="fill:#000000">UK</text><text x="63" y="124" class="row">email</text><text x="232" y="124" class="row">VARCHAR(100)</text>
+<text x="20" y="148" class="row" style="fill:#000000"></text><text x="63" y="148" class="row">phone</text><text x="232" y="148" class="row">VARCHAR(20)</text>
+<text x="20" y="172" class="row" style="fill:#000000"></text><text x="63" y="172" class="row">address</text><text x="232" y="172" class="row">TEXT</text>
+<text x="20" y="196" class="row" style="fill:#000000"></text><text x="63" y="196" class="row">district</text><text x="232" y="196" class="row">VARCHAR(100)</text>
+<text x="20" y="220" class="row" style="fill:#000000"></text><text x="63" y="220" class="row">state</text><text x="232" y="220" class="row">VARCHAR(100)</text>
+<text x="20" y="244" class="row" style="fill:#000000"></text><text x="63" y="244" class="row">pincode</text><text x="232" y="244" class="row">VARCHAR(10)</text>
+<text x="20" y="268" class="row" style="fill:#000000"></text><text x="63" y="268" class="row">password</text><text x="232" y="268" class="row">VARCHAR(255)</text>
+<text x="20" y="292" class="row" style="fill:#000000"></text><text x="63" y="292" class="row">role</text><text x="232" y="292" class="row">ENUM(customer, admin)</text>
+<text x="20" y="316" class="row" style="fill:#000000"></text><text x="63" y="316" class="row">created_at</text><text x="232" y="316" class="row">TIMESTAMP</text>
 </g>
-<g transform="translate(840,110)"><rect width="620" height="255" rx="8" fill="#0f172a"/><rect width="620" height="255" rx="8" fill="#17243a" stroke="#a78bfa" stroke-width="2"/><text x="20" y="32" class="heading">ORDERS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#a78bfa"/>
-<text x="20" y="76" class="row" style="fill:#a78bfa">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
-<text x="20" y="100" class="row" style="fill:#a78bfa">FK</text><text x="63" y="100" class="row">user_id</text><text x="232" y="100" class="row">INT(11)</text>
-<text x="20" y="124" class="row" style="fill:#a78bfa"></text><text x="63" y="124" class="row">total_amount</text><text x="232" y="124" class="row">DECIMAL(10,2)</text>
-<text x="20" y="148" class="row" style="fill:#a78bfa"></text><text x="63" y="148" class="row">status</text><text x="232" y="148" class="row">ENUM(pending, completed, cancelled)</text>
-<text x="20" y="172" class="row" style="fill:#a78bfa"></text><text x="63" y="172" class="row">shipping_address</text><text x="232" y="172" class="row">TEXT</text>
-<text x="20" y="196" class="row" style="fill:#a78bfa"></text><text x="63" y="196" class="row">created_at</text><text x="232" y="196" class="row">TIMESTAMP</text>
+<g transform="translate(840,110)"><rect width="620" height="255" rx="8" fill="#ffffff"/><rect width="620" height="255" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/><text x="20" y="32" class="heading">ORDERS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#000000"/>
+<text x="20" y="76" class="row" style="fill:#000000">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
+<text x="20" y="100" class="row" style="fill:#000000">FK</text><text x="63" y="100" class="row">user_id</text><text x="232" y="100" class="row">INT(11)</text>
+<text x="20" y="124" class="row" style="fill:#000000"></text><text x="63" y="124" class="row">total_amount</text><text x="232" y="124" class="row">DECIMAL(10,2)</text>
+<text x="20" y="148" class="row" style="fill:#000000"></text><text x="63" y="148" class="row">status</text><text x="232" y="148" class="row">ENUM(pending, completed, cancelled)</text>
+<text x="20" y="172" class="row" style="fill:#000000"></text><text x="63" y="172" class="row">shipping_address</text><text x="232" y="172" class="row">TEXT</text>
+<text x="20" y="196" class="row" style="fill:#000000"></text><text x="63" y="196" class="row">created_at</text><text x="232" y="196" class="row">TIMESTAMP</text>
 </g>
-<g transform="translate(40,540)"><rect width="620" height="290" rx="8" fill="#0f172a"/><rect width="620" height="290" rx="8" fill="#17243a" stroke="#a78bfa" stroke-width="2"/><text x="20" y="32" class="heading">PRODUCTS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#a78bfa"/>
-<text x="20" y="76" class="row" style="fill:#a78bfa">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
-<text x="20" y="100" class="row" style="fill:#a78bfa"></text><text x="63" y="100" class="row">name</text><text x="232" y="100" class="row">VARCHAR(200)</text>
-<text x="20" y="124" class="row" style="fill:#a78bfa"></text><text x="63" y="124" class="row">category</text><text x="232" y="124" class="row">VARCHAR(50)</text>
-<text x="20" y="148" class="row" style="fill:#a78bfa"></text><text x="63" y="148" class="row">brand</text><text x="232" y="148" class="row">VARCHAR(50)</text>
-<text x="20" y="172" class="row" style="fill:#a78bfa"></text><text x="63" y="172" class="row">description</text><text x="232" y="172" class="row">TEXT</text>
-<text x="20" y="196" class="row" style="fill:#a78bfa"></text><text x="63" y="196" class="row">price</text><text x="232" y="196" class="row">DECIMAL(10,2)</text>
-<text x="20" y="220" class="row" style="fill:#a78bfa"></text><text x="63" y="220" class="row">image_url</text><text x="232" y="220" class="row">VARCHAR(255)</text>
-<text x="20" y="244" class="row" style="fill:#a78bfa"></text><text x="63" y="244" class="row">created_at</text><text x="232" y="244" class="row">TIMESTAMP</text>
+<g transform="translate(40,540)"><rect width="620" height="290" rx="8" fill="#ffffff"/><rect width="620" height="290" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/><text x="20" y="32" class="heading">PRODUCTS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#000000"/>
+<text x="20" y="76" class="row" style="fill:#000000">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
+<text x="20" y="100" class="row" style="fill:#000000"></text><text x="63" y="100" class="row">name</text><text x="232" y="100" class="row">VARCHAR(200)</text>
+<text x="20" y="124" class="row" style="fill:#000000"></text><text x="63" y="124" class="row">category</text><text x="232" y="124" class="row">VARCHAR(50)</text>
+<text x="20" y="148" class="row" style="fill:#000000"></text><text x="63" y="148" class="row">brand</text><text x="232" y="148" class="row">VARCHAR(50)</text>
+<text x="20" y="172" class="row" style="fill:#000000"></text><text x="63" y="172" class="row">description</text><text x="232" y="172" class="row">TEXT</text>
+<text x="20" y="196" class="row" style="fill:#000000"></text><text x="63" y="196" class="row">price</text><text x="232" y="196" class="row">DECIMAL(10,2)</text>
+<text x="20" y="220" class="row" style="fill:#000000"></text><text x="63" y="220" class="row">image_url</text><text x="232" y="220" class="row">VARCHAR(255)</text>
+<text x="20" y="244" class="row" style="fill:#000000"></text><text x="63" y="244" class="row">created_at</text><text x="232" y="244" class="row">TIMESTAMP</text>
 </g>
-<g transform="translate(840,540)"><rect width="620" height="255" rx="8" fill="#0f172a"/><rect width="620" height="255" rx="8" fill="#17243a" stroke="#a78bfa" stroke-width="2"/><text x="20" y="32" class="heading">ORDER_ITEMS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#a78bfa"/>
-<text x="20" y="76" class="row" style="fill:#a78bfa">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
-<text x="20" y="100" class="row" style="fill:#a78bfa">FK</text><text x="63" y="100" class="row">order_id</text><text x="232" y="100" class="row">INT(11)</text>
-<text x="20" y="124" class="row" style="fill:#a78bfa">FK</text><text x="63" y="124" class="row">product_id</text><text x="232" y="124" class="row">INT(11)</text>
-<text x="20" y="148" class="row" style="fill:#a78bfa"></text><text x="63" y="148" class="row">quantity</text><text x="232" y="148" class="row">INT(11)</text>
-<text x="20" y="172" class="row" style="fill:#a78bfa"></text><text x="63" y="172" class="row">price</text><text x="232" y="172" class="row">DECIMAL(10,2)</text>
-<text x="20" y="196" class="row" style="fill:#a78bfa"></text><text x="63" y="196" class="row">size</text><text x="232" y="196" class="row">VARCHAR(3)</text>
+<g transform="translate(840,540)"><rect width="620" height="255" rx="8" fill="#ffffff"/><rect width="620" height="255" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/><text x="20" y="32" class="heading">ORDER_ITEMS</text><line x1="0" y1="49" x2="620" y2="49" stroke="#000000"/>
+<text x="20" y="76" class="row" style="fill:#000000">PK</text><text x="63" y="76" class="row">id</text><text x="232" y="76" class="row">INT(11)</text>
+<text x="20" y="100" class="row" style="fill:#000000">FK</text><text x="63" y="100" class="row">order_id</text><text x="232" y="100" class="row">INT(11)</text>
+<text x="20" y="124" class="row" style="fill:#000000">FK</text><text x="63" y="124" class="row">product_id</text><text x="232" y="124" class="row">INT(11)</text>
+<text x="20" y="148" class="row" style="fill:#000000"></text><text x="63" y="148" class="row">quantity</text><text x="232" y="148" class="row">INT(11)</text>
+<text x="20" y="172" class="row" style="fill:#000000"></text><text x="63" y="172" class="row">price</text><text x="232" y="172" class="row">DECIMAL(10,2)</text>
+<text x="20" y="196" class="row" style="fill:#000000"></text><text x="63" y="196" class="row">size</text><text x="232" y="196" class="row">VARCHAR(3)</text>
 </g>
 <text x="40" y="875" class="muted">PK: primary key / auto-increment • FK: foreign key • UK: unique email • ○ + crow's foot: zero or many</text>
 <text x="40" y="903" class="muted">All foreign keys: ON DELETE CASCADE. Registration and login share USERS. Cart is stored in the PHP session.</text></svg>
