@@ -4,7 +4,7 @@ Database: `clothhub` — **4 tables**. Verified from the running database.
 
 | Table | Purpose | Columns |
 |---|---|---|
-| users | Customers and administrators | 12 |
+| users | Customers and administrators | 11 |
 | products | Clothing catalogue | 8 |
 | orders | Order totals, status and delivery address | 6 |
 | order_items | Products, quantities, prices and sizes in each order | 6 |
@@ -69,3 +69,11 @@ Database: `clothhub` — **4 tables**. Verified from the running database.
 All three foreign keys use `ON DELETE CASCADE`. All four `id` columns auto-increment. `order_items.size` stores S, M, L, XL or XXL; older orders may have NULL.
 
 The cart lives in the PHP session, so there is no cart table. Registration and login both use the users table.
+
+## ER diagram
+
+![ER diagram](IMG/er-diagram.png)
+
+[Editable SVG](IMG/er-diagram.svg) · [Mermaid source](IMG/er-diagram.mmd)
+
+Registration and login both use `users`; no additional authentication tables are created.

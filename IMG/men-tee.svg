@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 500 600">
+<title>Men’s Charcoal T-Shirt — product illustration</title>
+<defs><pattern id="cloth" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5 M1 0V5" stroke="#fff" opacity=".12" stroke-width=".35"/></pattern></defs>
+<rect width="500" height="600" fill="#f2eee8"/>
+<path d="M239 98 Q235 76 250 76 Q268 77 265 92 Q261 101 250 106 V124 M250 124 L143 160 H357 Z" fill="none" stroke="#7a6b59" stroke-width="4"/>
+<g fill="#484340" stroke="#514942" stroke-opacity=".45" stroke-width="1.5"><path d="M186 145 L121 177 L82 248 L144 286 L175 235 V451 H325 V235 L356 286 L418 248 L379 177 L314 145 Q250 177 186 145 Z"/></g>
+<g fill="none" stroke="#514942" stroke-opacity=".45" stroke-width="1.6"><path d="M186 145 Q250 215 314 145 M194 149 Q250 207 306 149 M179 435 H321 M92 235 L144 267 M356 267 L408 235"/></g>
+</svg>
