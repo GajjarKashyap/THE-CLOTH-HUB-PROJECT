@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 500 600">
+<title>Women’s Rose Formal Shirt — product illustration</title>
+<defs><pattern id="cloth" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5 M1 0V5" stroke="#fff" opacity=".12" stroke-width=".35"/></pattern></defs>
+<rect width="500" height="600" fill="#f2eee8"/>
+<path d="M239 98 Q235 76 250 76 Q268 77 265 92 Q261 101 250 106 V124 M250 124 L143 160 H357 Z" fill="none" stroke="#7a6b59" stroke-width="4"/>
+<g fill="#be8e89" stroke="#514942" stroke-opacity=".45" stroke-width="1.5"><path d="M198 141 L132 171 L78 425 L126 443 L180 259 L172 454 Q250 465 328 454 L323 236 L374 443 L422 425 L368 171 L302 141 Z"/><path d="M198 141 L215 128 H285 L302 141 L279 190 L250 160 L220 190 Z" fill="#fff" opacity=".22"/></g>
+<g fill="none" stroke="#514942" stroke-opacity=".45" stroke-width="1.6"><path d="M250 161 V454 M198 141 L220 190 L250 160 L279 190 L302 141 M275 220 H309 V262 H275 Z M179 439 Q250 451 321 439"/><path d="M83 408 L130 425 M371 425 L417 408"/><circle cx="250" cy="203" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/><circle cx="250" cy="247" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/><circle cx="250" cy="291" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/><circle cx="250" cy="335" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/><circle cx="250" cy="379" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/><circle cx="250" cy="423" r="3" fill="#e7dfd2" stroke="#81766a" stroke-width="1"/></g>
+</svg>

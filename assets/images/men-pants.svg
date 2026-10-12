@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 500 600">
+<title>Men’s Stone Trousers — product illustration</title>
+<defs><pattern id="cloth" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5 M1 0V5" stroke="#fff" opacity=".12" stroke-width=".35"/></pattern></defs>
+<rect width="500" height="600" fill="#f2eee8"/>
+<path d="M239 98 Q235 76 250 76 Q268 77 265 92 Q261 101 250 106 V124 M250 124 L143 160 H357 Z" fill="none" stroke="#7a6b59" stroke-width="4"/>
+<g fill="#a39681" stroke="#514942" stroke-opacity=".45" stroke-width="1.5"><path d="M155 108 H345 L366 409 L354 494 H282 L250 260 L219 494 H146 L134 409 Z"/><path d="M155 108 H345 V144 H155 Z" fill="#000" opacity=".08"/></g>
+<g fill="none" stroke="#514942" stroke-opacity=".45" stroke-width="1.6"><path d="M250 145 V253 M158 149 Q187 188 212 172 M343 149 Q315 188 288 172 M158 124 V150 M204 124 V148 M298 124 V148 M342 124 V150 M150 476 H220 M281 476 H355"/><circle cx="249" cy="127" r="4" fill="#847567"/></g>
+</svg>

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "assets/images/men-shirt.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/I/71oMqn8XowL.jpg",
+    "source": "https://www.nellisauction.com/p/Amazon-Essentials-Men-s-Vacation-Cotton-Button-Down-Resort-Shirt/62197692"
+  },
+  {
+    "file": "assets/images/men-tee.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/mediaservice.woot.com/6defec80-b089-4542-9465-5aba2eadae18.png",
+    "source": "https://sellout.woot.com/offers/amazon-essentials-mens-t-shirts-2pk"
+  },
+  {
+    "file": "assets/images/men-pants.jpg",
+    "image_url": "https://m.media-amazon.com/images/I/61X-QR1b61S.jpg",
+    "source": "https://www.nellisauction.com/p/Amazon-Essentials-Men-s-Classic-Fit-Wrinkle-Resistant-Flat-Front/13886093"
+  },
+  {
+    "file": "assets/images/men-formal-white.jpg",
+    "image_url": "https://m.media-amazon.com/images/I/41YYPsX9uGL._SL600_.jpg",
+    "source": "https://www.cherrypicksreviews.com/mens-shirts/slim"
+  },
+  {
+    "file": "assets/images/men-formal-olive.jpg",
+    "image_url": "https://m.media-amazon.com/images/I/91Von9XJDGL._AC_UL1500_.jpg",
+    "source": "https://vintagedancer.com/1940s/1940s-style-mens-shirts/"
+  },
+  {
+    "file": "assets/images/women-shirt.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/mediaservice.woot.com/ce477a33-91fe-4563-bf0e-9ee45bface9a.jpg",
+    "source": "https://sport.woot.com/offers/amazon-essentials-women-oversized-cropped-shirt-0"
+  },
+  {
+    "file": "assets/images/women-tee.jpg",
+    "image_url": "https://m.media-amazon.com/images/I/81cIYIC%2BinL._AC_SL1500_.jpg",
+    "source": "https://tiendamia.com.uy/producto?amz=B07FFL2DS8"
+  },
+  {
+    "file": "assets/images/women-pants.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/mediaservice.woot.com/aaad4df2-be76-4050-b6bc-c843281734ef.png",
+    "source": "https://sport.woot.com/offers/amazon-essentials-womens-twill-chino-pant-4-6z"
+  },
+  {
+    "file": "assets/images/women-formal-white.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/mediaservice.woot.com/96b8a72c-d96b-46ba-b455-8195ae72b3f2.png",
+    "source": "https://sport.woot.com/offers/amazon-essentials-womens-regularfit-stretch-poplin-buttonup-shirt"
+  },
+  {
+    "file": "assets/images/women-formal-rose.jpg",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/S/mediaservice.woot.com/222b6170-09e3-4290-a1c6-de4ad6407298.png",
+    "source": "https://sport.woot.com/offers/amazon-essentials-womens-regularfit-stretch-poplin-buttonup-shirt"
+  }
+]

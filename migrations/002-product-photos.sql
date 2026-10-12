@@ -1,0 +1,11 @@
+USE clothhub;
+UPDATE products SET image_url = 'assets/images/men-shirt.jpg' WHERE image_url = 'assets/images/men-shirt.svg';
+UPDATE products SET image_url = 'assets/images/men-tee.jpg' WHERE image_url = 'assets/images/men-tee.svg';
+UPDATE products SET image_url = 'assets/images/men-pants.jpg' WHERE image_url = 'assets/images/men-pants.svg';
+UPDATE products SET image_url = 'assets/images/men-formal-white.jpg' WHERE image_url = 'assets/images/men-formal-white.svg';
+UPDATE products SET image_url = 'assets/images/men-formal-olive.jpg' WHERE image_url = 'assets/images/men-formal-olive.svg';
+UPDATE products SET image_url = 'assets/images/women-shirt.jpg' WHERE image_url = 'assets/images/women-shirt.svg';
+UPDATE products SET image_url = 'assets/images/women-tee.jpg' WHERE image_url = 'assets/images/women-tee.svg';
+UPDATE products SET image_url = 'assets/images/women-pants.jpg' WHERE image_url = 'assets/images/women-pants.svg';
+UPDATE products SET image_url = 'assets/images/women-formal-white.jpg' WHERE image_url = 'assets/images/women-formal-white.svg';
+UPDATE products SET image_url = 'assets/images/women-formal-rose.jpg' WHERE image_url = 'assets/images/women-formal-rose.svg';
